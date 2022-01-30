@@ -1,0 +1,56 @@
+body {
+  font: 100% Verdana;
+  line-height: 26px;
+}
+
+a {
+  color: #000;
+}
+
+h1, h2, h3, a:hover {
+  color: #4CAF50;
+}
+
+#page {
+	width: 900px;
+	margin: auto;
+}
+
+#links ul {
+  margin: 0;
+  padding: 0;
+}
+
+.menu {
+  margin: 5px;
+  padding: 0;
+  width: 150px;
+  background-color: #555555;
+  color: #fff;
+	list-style: none;
+	cursor: pointer;
+  text-align: center;
+  display: inline-block;
+}
+
+.menu:hover {
+	background-color: #5555554f;
+}
+
+.menu:nth-child(3) {
+	background-color: #4CAF50;
+	color: #fff;
+}
+
+#side-bar {
+  border: 1px solid #d4d4d4;
+  background-color: #f1f1f1;
+  padding-left: 10px;
+}
+
+#footer {
+  line-height: 14px;
+  font-size: 70%;
+  text-align: center;
+  padding: 10px;
+}

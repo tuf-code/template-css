@@ -1,0 +1,57 @@
+body {
+  font: 100% 'Courier New';
+}
+
+#page {
+  width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+#page, a, .menu:hover {
+  color: #fff;
+}
+
+#side-bar, #footer {
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+
+#page {
+  background-color: #000;
+}
+
+#top, #links, #content, a:hover {
+  color: #4CAF50;
+}
+
+#links {
+  line-height: 30px;
+}
+
+.menu {
+  cursor: pointer;
+}
+
+#container {
+  position: relative;
+}
+
+#content, #side-bar, #footer {
+  padding: 10px;
+}
+
+#side-bar {
+  width: 325px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 80%;
+  line-height: 20px;
+}
+
+#footer {
+  text-align: center;
+  font-size: 70%;
+  line-height: 15px;
+}
